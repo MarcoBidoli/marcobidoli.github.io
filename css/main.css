@@ -72,23 +72,23 @@ h1 {
 h2 {
   position: relative;
   font-family: 'Barlow-Semibold';
-  font-size: .6em;
-  margin-left: 25px;
+  font-size: .7em;
+  margin-left: 23px;
   text-transform: uppercase;
   color: #5e5e5e;
-  bottom: 25px;
+  bottom: 30px;
 }
 
 a.h3 {
   position: relative;
   font-family: 'Barlow-Semibold';
-  font-size: .5em;
+  font-size: .6em;
   margin-left: 25px;
   text-transform: uppercase;
-  color: #5e5e5e;
-  bottom: 27px;
+  color: rgb(0, 177, 238);
+  bottom: 30px;
   text-decoration: none;
-  border-bottom: 2px #6e6e6e dotted;
+  border-bottom: 2px rgb(0, 177, 238) dotted;
 }
 
 #profile-img {
