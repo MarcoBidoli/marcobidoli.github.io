@@ -3,181 +3,131 @@
   src: url(fonts/Barlow-SemiBold.ttf);
 }
 
+
 body {
-  background-color: #101010;
+  background-color: #fafafa;
   margin: 0;
 }
 
-#container {
-  padding: 20px;
-  box-sizing: border-box;
-  background: #fff;
-  margin: 20px 15px;
-  border-radius: 7px;
-}
-
-#backgroundImage {
+#copertina {
   width: 100%;
-  position: absolute;
-  background-image: url(../imgs/skipic-web.jpg);
+  height: 250px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+  background-image: url("../imgs/ski-lift.gif");
   background-size: cover;
-  background-repeat: no-repeat;
-  background: #fff;
 }
 
-.text {
-  width: 100%;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-p {
-  font-family: 'Barlow-SemiBold', sans-serif;
-  font-size: 1.7em;
-  line-height: 120%;
-  color: #fff;
-  color: #000;
-}
-
-p.intro {
-  margin-top: 50px;
-}
-
-span.through {
-  text-decoration: line-through;
-  color: rgb(94, 94, 94);
-}
-
-.profile {
-  position: relative;
-  top: 59px;
-  padding: 3px;
-  border-radius: 999px;
-  background: #fff;
-  width: 100px;
-  height: 100px;
+#presentation-block {
+  width: 88%;
   margin: auto;
-}
-
-.name {
-  font-family: Roboto;
-  color: #fff;
-  width: 100%;
   position: relative;
-  top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border: solid 1px #e6e6e6;
+  border-radius: 3px;
+  bottom: 5px;
 }
 
-.profile img {
-  border-radius: inherit;
-  width: inherit;
-  height: inherit;
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: absolute;
+  top: 30px;
+  left: 10px;
 }
 
-div.latest {
-  margin-top: 50px;
-  margin-bottom: 50px;
+#titles {
+  flex: 4;
+  position: relative;
+  bottom: 13px;
 }
 
-.latest p {
-  line-height: 130%;
+h1 {
+  position: relative;
+  font-family: 'Barlow-Semibold';
+  font-size: 2em;
+  margin-left: 20px;
+  bottom: 5px;
+  color: #333;
 }
 
-a.mail {
-  font-family: 'Barlow-SemiBold', sans-serif;
-  color: #ffd300;
-  text-decoration: none;
-  transition: all .2s ease-in-out;
-  -webkit-transition: all .2s ease-in-out;
-  outline: none;
+h2 {
+  position: relative;
+  font-family: 'Barlow-Semibold';
+  font-size: .5em;
+  margin-left: 25px;
+  text-transform: uppercase;
+  color: #5e5e5e;
+  bottom: 25px;
 }
 
-a.mail:hover, a.mail:focus {
-  background-color: #ffd300;
-  color: #000;
-  transition: all .2s ease-in-out;
-  -webkit-transition: all .2s ease-in-out;
+h3 {
+  position: relative;
+  font-family: 'Barlow-Semibold';
+  font-size: .4em;
+  margin-left: 25px;
+  text-transform: uppercase;
+  color: #5e5e5e;
+  bottom: 27px;
 }
 
-a.link.insta {
-  color: #e1306c;
+#profile-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  position: relative;
+  float: left;
+  flex: 1;
+  border: solid 1px #ccc;
+  left: 5px;
 }
 
-a.link.face {
-  color: #3b5999;
+small#bio-title {
+  font-family: 'Barlow-Semibold';
+  color: #777;
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 15px;
 }
 
-a.link {
-  font-family: 'Barlow-SemiBold', sans-serif;
-  text-decoration: none;
-  color: inherit;
-  transition: all .2s ease-in-out;
-  -webkit-transition: all .2s ease-in-out;
-  outline: none;
+#bio {
+  font-family: 'Barlow-Semibold';
+  font-size: 1em;
+  color: #555;
 }
 
-a.link.insta:hover, a.link.insta:focus {
-  background: #e1306c;
-  color: #fff;
-  transition: all .2s ease-in-out;
-  -webkit-transition: all .2s ease-in-out;
+#post-container {
+  margin-top: 20px;
+  width: 100%;
 }
 
-a.link.face:hover, a.link.face:focus {
-  background: #3b5999;
-  color: #fff;
-  transition: all .2s ease-in-out;
-  -webkit-transition: all .2s ease-in-out;
+.post {
+  width: 80%;
+  margin: auto;
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  border: solid 1px #e6e6e6;
+  border-radius: 3px;
 }
 
-div#cr {
-  position: static;
-  bottom: 0;
-  font-family: "Barlow-SemiBold", sans-serif;
-  color: #bbb;
-  font-size: .7em;
-  border-top: dotted 5px #fff;
-  padding-top: 10px;
-  padding-bottom: 10px;
+h1#post-main-title {
+  font-size: 1em;
 }
 
 /* smartphone */
 @media only screen and (max-width: 767px) {
-  #backgroundImage {
-    background-position-x: -250px;
-    background-position-y: -120px;
-  }
-  .text {
-    width: 100%;
-  }
 }
 
 /* tablet*/
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  p {
-    font-size: 2.7em;
-  }
-  .text {
-    width: 80%;
-    margin: auto;
-  }
 }
 
 /*desktop*/
 @media only screen and (min-width: 1024px) {
-  p {
-    font-size: 2.7em;
-  }
-
-  #profile {
-    top: 10px;
-  }
-
-  #container {
-    width: 60%;
-    margin: auto;
-  }
-  .text {
-    width: 80%;
-    margin: auto;
-  }
 }
