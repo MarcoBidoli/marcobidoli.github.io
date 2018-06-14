@@ -1,0 +1,184 @@
+@font-face {
+  font-family: 'Barlow-SemiBold';
+  src: url(fonts/Barlow-SemiBold.ttf);
+}
+
+body {
+  background-color: #101010;
+  margin: 0;
+}
+
+#container {
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff;
+  margin: 20px 15px;
+  border-radius: 7px;
+}
+
+#backgroundImage {
+  width: 100%;
+  position: absolute;
+  */background-image: url(../imgs/skipic-web.jpg);*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: #fff;
+}
+
+.text {
+  width: 100%;
+  /*
+  user-select: none;
+  -webkit-user-select: none;*/
+}
+
+p {
+  font-family: 'Barlow-SemiBold', sans-serif;
+  font-size: 1.7em;
+  line-height: 120%;
+  color: #fff;
+  color: #000;
+}
+
+p.intro {
+  margin-top: 50px;
+}
+
+span.through {
+  text-decoration: line-through;
+  color: rgb(94, 94, 94);
+}
+
+.profile {
+  position: relative;
+  top: 59px;
+  padding: 3px;
+  border-radius: 999px;
+  background: #fff;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.name {
+  font-family: Roboto;
+  color: #fff;
+  width: 100%;
+  position: relative;
+  top: 20px;
+}
+
+.profile img {
+  border-radius: inherit;
+  width: inherit;
+  height: inherit;
+}
+
+div.latest {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.latest p {
+  line-height: 130%;
+}
+
+a.mail {
+  font-family: 'Barlow-SemiBold', sans-serif;
+  color: #ffd300;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  outline: none;
+}
+
+a.mail:hover, a.mail:focus {
+  background-color: #ffd300;
+  color: #000;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+}
+
+a.link.insta {
+  color: #e1306c;
+}
+
+a.link.face {
+  color: #3b5999;
+}
+
+a.link {
+  font-family: 'Barlow-SemiBold', sans-serif;
+  text-decoration: none;
+  color: inherit;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  outline: none;
+}
+
+a.link.insta:hover, a.link.insta:focus {
+  background: #e1306c;
+  color: #fff;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+}
+
+a.link.face:hover, a.link.face:focus {
+  background: #3b5999;
+  color: #fff;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+}
+
+div#cr {
+  position: static;
+  bottom: 0;
+  font-family: "Barlow-SemiBold", sans-serif;
+  color: #bbb;
+  font-size: .7em;
+  border-top: dotted 5px #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* smartphone */
+@media only screen and (max-width: 767px) {
+  #backgroundImage {
+    background-position-x: -250px;
+    background-position-y: -120px;
+  }
+  .text {
+    width: 100%;
+  }
+}
+
+/* tablet*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  p {
+    font-size: 2.7em;
+  }
+  .text {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+/*desktop*/
+@media only screen and (min-width: 1024px) {
+  p {
+    font-size: 2.7em;
+  }
+
+  #profile {
+    top: 10px;
+  }
+
+  #container {
+    width: 60%;
+    margin: auto;
+  }
+  .text {
+    width: 80%;
+    margin: auto;
+  }
+}
