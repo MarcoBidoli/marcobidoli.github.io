@@ -19,7 +19,7 @@ body {
 #backgroundImage {
   width: 100%;
   position: absolute;
-  */background-image: url(../imgs/skipic-web.jpg);*/
+  background-image: url(../imgs/skipic-web.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background: #fff;
@@ -27,9 +27,8 @@ body {
 
 .text {
   width: 100%;
-  /*
   user-select: none;
-  -webkit-user-select: none;*/
+  -webkit-user-select: none;
 }
 
 p {
