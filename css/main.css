@@ -44,7 +44,7 @@ body {
   margin: auto;
   position: relative;
   background-color: #fff;
-  padding: 20px 0px;
+  padding: 10px 0px 20px 0px;
   border: solid 1px #e6e6e6;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
@@ -55,11 +55,11 @@ body {
 
 .handle-x {
   position: relative;
-  height: 6px;
-  width: 22%;
+  height: 7px;
+  width: 35%;
   border-radius: 999px;
-  background: #676;
-  margin: 0px auto 25px auto;
+  background: #cdcdcd;
+  margin: 0px auto 30px auto;
 
 }
 
