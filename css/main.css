@@ -153,11 +153,6 @@ small.p-title {
   color: #555;
 }
 
-.smaller {
-  font-size: .8em;
-  font-style: italic;
-}
-
 .generic-text.first::first-letter {
   font-size: 175%;
   float: left;
