@@ -144,24 +144,32 @@ small.p-title {
 
 .generic-text {
   line-height: 150%;
-  letter-spacing: 1px;
+  letter-spacing: .5px;
   font-family: 'Barlow-Semibold';
   font-size: 1em;
   margin: 0 20px;
   margin-top: 10px;
+  margin-bottom: 20px;
   color: #555;
 }
 
+.smaller {
+  font-size: .8em;
+  font-style: italic;
+}
+
 .generic-text.first::first-letter {
-  font-size: 200%;
+  font-size: 175%;
   float: left;
   padding-right: 0px;
+  margin-top: -5px;
   color: #555;
 }
 
 a.text-link {
   color: rgb(0, 177, 238);
   text-decoration: none;
+  padding-bottom: 2px;
   border-bottom: dotted 2px rgb(0, 177, 238);
 }
 
